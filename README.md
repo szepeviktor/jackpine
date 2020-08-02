@@ -4,6 +4,7 @@
 [![License](https://badgen.net/github/license/45-North-Ventures-LLC/jackpine)](https://github.com/45-North-Ventures-LLC/jackpine/blob/master/LICENSE)
 [![Last Commit](https://badgen.net/github/last-commit/45-North-Ventures-LLC/jackpine/master?cache=300)](https://github.com/45-North-Ventures-LLC/jackpine/commits/master)
 [![Issues](https://badgen.net/github/open-issues/45-North-Ventures-LLC/jackpine?cache=300)](https://github.com/45-North-Ventures-LLC/jackpine/issues)
+[![Gitter](https://badges.gitter.im/jackpine-wp/community.svg)](https://gitter.im/jackpine-wp/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 Jackpine is a **WordPress starter theme** based on **Timber** with **modern developer tooling**.
 
