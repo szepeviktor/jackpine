@@ -90,7 +90,7 @@ If you're interested in contributing to Jackpine as an open source project, feel
 
 🐥 Tweeting about Jackpine and mentioning it to your friends and colleagues
 
-🧙‍♂️ Answering questions in GitHub issues the support channel on our Gitter (coming soon)
+🧙‍♂️ Answering questions in GitHub issues the support channel on our [Gitter](https://gitter.im/jackpine-wp/)
 
 ---
 
