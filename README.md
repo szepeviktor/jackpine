@@ -1,3 +1,5 @@
+![Jackpine logo](screenshot.png?raw=true "Jackpine logo")
+
 # 🌲 Jackpine
 
 [![Release](https://badgen.net/github/release/45-North-Ventures-LLC/jackpine/stable)](https://github.com/45-North-Ventures-LLC/jackpine/releases)
