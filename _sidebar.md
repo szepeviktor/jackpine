@@ -1,4 +1,7 @@
--   Getting Started
-
-    -   [Installation](Installation.md)
-    -   [Development Server](Development-Server.md)
+- [Introduction](README.md)
+- [Getting Started](getting-started.md)
+- [Building a Theme](building-a-theme.md)
+- [Deploying Your Theme](deploying-your-theme.md)
+- [Cookbook](cookbook.md)
+- [Support](support.md)
+- [Contribute](contribute.md)
