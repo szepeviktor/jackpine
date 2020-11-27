@@ -1,18 +1,4 @@
-# TravisCI configuration for username/projectname
-
-_shared_script_check_author: &script_check_author |
-  Check_author()
-  {
-    local author="$1"
-    local github_api_url="https://api.github.com/search/users"
-    echo "Checking ${author} ..."
-    curl -s -G --data-urlencode "q=type:user in:email ${author}" "${github_api_url}" \
-      | grep -F -x '  "total_count": 1,'
-  }
-  test -z "${TRAVIS_COMMIT_RANGE}" \
-    || git show --no-patch --pretty="format:%ae" "${TRAVIS_COMMIT_RANGE}" \
-    | sort -u \
-    | while read -r author; do Check_author "${author}"; done
+# TravisCI configuration for 45-North-Ventures-LLC/jackpine
 
 language: "php"
 os:
@@ -37,6 +23,7 @@ jobs:
       script: |
         # No files should be executable
         test -z "$(find . -type f -not -path "./.git/*" -executable)"
+
     - stage: "test"
       name: "Check assets"
       language: "node_js"
