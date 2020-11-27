@@ -1,5 +1,6 @@
 {
     "name": "45northventures/jackpine",
+    "description": "WordPress starter theme with Timber, Tailwind, and Alpine.js",
     "type": "wordpress-theme",
     "license": "MIT",
     "authors": [
