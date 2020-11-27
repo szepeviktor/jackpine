@@ -37,15 +37,16 @@ jobs:
       script: |
         # No files should be executable
         test -z "$(find . -type f -not -path "./.git/*" -executable)"
-    - name: "Check packages.json"
+    - stage: "test"
+      name: "Check assets"
       language: "node_js"
       node_js: "12"
       cache: "yarn"
       before_install: "skip"
-      install: "yarn install"
+      install: "yarn install --non-interactive --frozen-lockfile"
       script:
-        - "yarn lint"
-        - "yarn build"
+        - "yarn run lint"
+        - "yarn run build"
         - "yarn run archive"
 
 cache:
@@ -62,4 +63,4 @@ install:
   - "composer install"
 
 script:
-  - ""
+  - "echo 'CI needs unit tests or static analysis.'"
